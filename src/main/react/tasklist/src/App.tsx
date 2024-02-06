@@ -30,6 +30,7 @@ import '@bpmn-io/form-js/dist/assets/dragula.css';
 import '@bpmn-io/form-js/dist/assets/properties-panel.css';
 import './assets/css/custom.css';
 import './assets/css/login.css';
+import './assets/css/custom-style.css';
 import authService from './service/AuthService'
 
 function App() {
