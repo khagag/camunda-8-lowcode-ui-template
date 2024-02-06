@@ -1,6 +1,6 @@
 {
   "name" : "validate-customer-existence",
-  "modified" : 1707187311710,
+  "modified" : 1707234107222,
   "schema" : {
     "_id" : 6250093,
     "components" : [ {
@@ -82,120 +82,121 @@
       "id" : "eoluoxx"
     }, {
       "label" : "Program Type",
+      "labelPosition" : "top",
       "widget" : "choicesjs",
+      "placeholder" : "",
+      "description" : "",
+      "tooltip" : "",
+      "customClass" : "",
+      "tabindex" : "",
+      "hidden" : false,
+      "hideLabel" : false,
+      "uniqueOptions" : false,
+      "autofocus" : false,
+      "disabled" : false,
       "tableView" : true,
+      "modalEdit" : false,
+      "multiple" : false,
+      "dataSrc" : "values",
       "data" : {
         "values" : [ {
-          "label" : "Car Loan - Unsecured 20% DP - Employees (Income Proof) (84 M) (10.00%)",
-          "value" : "701"
+          "label" : "Auto Loan",
+          "value" : "AutoLoan"
         }, {
-          "label" : "Car Loan - Unsecured 20% DP - Self Employed (Income Proof) (84 M) (20.00%)",
-          "value" : "702"
-        }, {
-          "label" : "Car Loan - Unsecured 20% DP - Employees (Income Proof) (72 M) SAIB Excellence (19.50%)",
-          "value" : "622EGP"
-        }, {
-          "label" : "Car Loan - Unsecured 50% DP - Employees (No Income Proof / No Ins)(72 M) (19.25%)",
-          "value" : "623EGP"
-        }, {
-          "label" : "Car Loan - Unsecured 50% DP - Self Employed (No Income Proof / No Ins)(72 M) (22.75%)",
-          "value" : "730"
+          "label" : "Cash Loan",
+          "value" : "CashLoan"
         } ],
+        "resource" : "",
         "json" : "",
         "url" : "",
-        "resource" : "",
         "custom" : ""
       },
-      "key" : "programType",
-      "attributes" : {
-        "style" : "color:red;background-color:blue;"
-      },
-      "type" : "select",
-      "input" : true,
-      "id" : "e1dgbz8",
-      "placeholder" : "",
-      "prefix" : "",
-      "customClass" : "",
-      "suffix" : "",
-      "multiple" : false,
-      "defaultValue" : null,
-      "protected" : false,
-      "unique" : false,
-      "persistent" : true,
-      "hidden" : false,
-      "clearOnHide" : true,
+      "dataType" : "",
+      "idPath" : "id",
+      "valueProperty" : "",
+      "template" : "<span>{{ item.label }}</span>",
       "refreshOn" : "",
-      "redrawOn" : "",
-      "modalEdit" : false,
-      "dataGridLabel" : false,
-      "labelPosition" : "top",
-      "description" : "",
-      "errorLabel" : "",
-      "tooltip" : "",
-      "hideLabel" : false,
-      "tabindex" : "",
-      "disabled" : false,
-      "autofocus" : false,
+      "refreshOnBlur" : "",
+      "clearOnRefresh" : false,
+      "searchEnabled" : true,
+      "selectThreshold" : 0.3,
+      "readOnlyValue" : false,
+      "customOptions" : { },
+      "useExactSearch" : false,
+      "persistent" : true,
+      "protected" : false,
       "dbIndex" : false,
+      "encrypted" : false,
+      "clearOnHide" : true,
       "customDefaultValue" : "",
       "calculateValue" : "",
       "calculateServer" : false,
+      "allowCalculateOverride" : false,
       "validateOn" : "change",
       "validate" : {
         "required" : false,
+        "onlyAvailableItems" : false,
+        "customMessage" : "",
         "custom" : "",
         "customPrivate" : false,
+        "json" : "",
         "strictDateValidation" : false,
         "multiple" : false,
-        "unique" : false,
-        "onlyAvailableItems" : false
+        "unique" : false
       },
+      "unique" : false,
+      "errorLabel" : "",
+      "errors" : "",
+      "key" : "programType",
+      "tags" : [ ],
+      "properties" : { },
       "conditional" : {
         "show" : null,
         "when" : null,
-        "eq" : ""
+        "eq" : "",
+        "json" : ""
+      },
+      "customConditional" : "",
+      "logic" : [ ],
+      "attributes" : {
+        "style" : "color:red;background-color:blue;"
       },
       "overlay" : {
         "style" : "",
+        "page" : "",
         "left" : "",
         "top" : "",
         "width" : "",
         "height" : ""
       },
-      "allowCalculateOverride" : false,
-      "encrypted" : false,
+      "type" : "select",
+      "indexeddb" : {
+        "filter" : { }
+      },
+      "selectFields" : "",
+      "searchField" : "",
+      "searchDebounce" : 0.3,
+      "minSearch" : 0,
+      "filter" : "",
+      "limit" : 100,
+      "redrawOn" : "",
+      "input" : true,
+      "prefix" : "",
+      "suffix" : "",
+      "dataGridLabel" : false,
       "showCharCount" : false,
       "showWordCount" : false,
-      "properties" : { },
       "allowMultipleMasks" : false,
       "addons" : [ ],
-      "dataSrc" : "values",
+      "lazyLoad" : true,
       "authenticate" : false,
       "ignoreCache" : false,
-      "template" : "<span>{{ item.label }}</span>",
-      "idPath" : "id",
-      "clearOnRefresh" : false,
-      "limit" : 100,
-      "valueProperty" : "",
-      "lazyLoad" : true,
-      "filter" : "",
-      "searchEnabled" : true,
-      "searchDebounce" : 0.3,
-      "searchField" : "",
-      "minSearch" : 0,
-      "readOnlyValue" : false,
-      "selectFields" : "",
-      "selectThreshold" : 0.3,
-      "uniqueOptions" : false,
       "fuseOptions" : {
         "include" : "score",
         "threshold" : 0.3
       },
-      "indexeddb" : {
-        "filter" : { }
-      },
-      "customOptions" : { },
-      "useExactSearch" : false
+      "id" : "ecvxd3p",
+      "defaultValue" : ""
     }, {
       "label" : "Customer National ID",
       "labelPosition" : "top",
@@ -507,7 +508,7 @@
       "shortcut" : "",
       "description" : "",
       "tooltip" : "",
-      "customClass" : "",
+      "customClass" : "btn-primary",
       "tabindex" : "",
       "disableOnInvalid" : false,
       "hidden" : false,
@@ -582,7 +583,7 @@
       "showWordCount" : false,
       "allowMultipleMasks" : false,
       "addons" : [ ],
-      "id" : "ej608uv"
+      "id" : "eygm8u5"
     } ]
   },
   "previewData" : { },
