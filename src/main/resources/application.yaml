@@ -7,7 +7,7 @@ zeebe.client:
 
 # go to http://localhost:8084/applications/ and create application of type M2M with read/write access to Operate & Tasklist
 identity.clientId: customtasklist
-identity.clientSecret: QtMt3bRuaRl1mt3uDorHAUnaQijC1Yf8
+identity.clientSecret: K72bGQbp0anByqklstqBxMoEvCDnihBM
 keycloakUrl: http://localhost:18080
 tasklistUrl: http://localhost:8082/
 operateUrl: http://localhost:8081/
@@ -27,8 +27,8 @@ spring:
     enabled: false
     client:
       registration.customTaskList:
-        client-id: CustomTaskList
-        client-secret: QtMt3bRuaRl1mt3uDorHAUnaQijC1Yf8
+        client-id: customtasklist
+        client-secret: K72bGQbp0anByqklstqBxMoEvCDnihBM
         authorization-grant-type: authorization_code
         scope: openid, profile
         redirect-uri: http://localhost:8080/login/oauth2/code/customTaskList
