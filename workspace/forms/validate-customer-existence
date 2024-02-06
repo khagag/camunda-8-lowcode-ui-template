@@ -1,6 +1,6 @@
 {
   "name" : "validate-customer-existence",
-  "modified" : 1707181989553,
+  "modified" : 1707187311710,
   "schema" : {
     "_id" : 6250093,
     "components" : [ {
@@ -79,7 +79,7 @@
       "showWordCount" : false,
       "allowMultipleMasks" : false,
       "addons" : [ ],
-      "id" : "ec0aan"
+      "id" : "eoluoxx"
     }, {
       "label" : "Program Type",
       "widget" : "choicesjs",
@@ -112,7 +112,7 @@
       },
       "type" : "select",
       "input" : true,
-      "id" : "ergu6r7",
+      "id" : "e1dgbz8",
       "placeholder" : "",
       "prefix" : "",
       "customClass" : "",
@@ -280,7 +280,7 @@
       "dataGridLabel" : false,
       "addons" : [ ],
       "inputType" : "text",
-      "id" : "elopqyq",
+      "id" : "eb0dlv9",
       "defaultValue" : ""
     }, {
       "label" : "Customer Birth Date",
@@ -378,7 +378,7 @@
       "showWordCount" : false,
       "allowMultipleMasks" : false,
       "addons" : [ ],
-      "id" : "en83ajv",
+      "id" : "ezytkhm",
       "defaultValue" : "00/00/0000"
     }, {
       "label" : "Gender",
@@ -493,10 +493,10 @@
         "include" : "score",
         "threshold" : 0.3
       },
-      "id" : "ejl99o",
+      "id" : "ebtpyz",
       "defaultValue" : ""
     }, {
-      "label" : "Submit",
+      "label" : "Check CIF",
       "action" : "submit",
       "showValidations" : false,
       "theme" : "primary",
@@ -543,6 +543,7 @@
         "height" : ""
       },
       "type" : "button",
+      "saveOnEnter" : false,
       "input" : true,
       "placeholder" : "",
       "prefix" : "",
@@ -581,8 +582,7 @@
       "showWordCount" : false,
       "allowMultipleMasks" : false,
       "addons" : [ ],
-      "id" : "e9k2z3o",
-      "saveOnEnter" : false
+      "id" : "ej608uv"
     } ]
   },
   "previewData" : { },
