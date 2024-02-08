@@ -1,6 +1,6 @@
 {
   "name" : "loan-inputs",
-  "modified" : 1707237677568,
+  "modified" : 1707243812025,
   "schema" : {
     "_id" : 7611984,
     "components" : [ {
@@ -2286,7 +2286,7 @@
         "tooltip" : "",
         "customClass" : "",
         "collapsible" : false,
-        "hidden" : true,
+        "hidden" : false,
         "hideLabel" : false,
         "disabled" : false,
         "modalEdit" : false,
@@ -2398,7 +2398,7 @@
                   "displayMask" : "",
                   "spellcheck" : true,
                   "truncateMultipleSpaces" : false,
-                  "id" : "eeq5p5r"
+                  "id" : "exp900l"
                 } ],
                 "width" : 6,
                 "offset" : 0,
@@ -2483,7 +2483,7 @@
                   "displayMask" : "",
                   "spellcheck" : true,
                   "truncateMultipleSpaces" : false,
-                  "id" : "e12i2eh"
+                  "id" : "eo2n5z"
                 } ],
                 "width" : 6,
                 "offset" : 0,
@@ -2556,7 +2556,7 @@
               "tree" : false,
               "lazyLoad" : false,
               "autoAdjust" : false,
-              "id" : "emy8xhn"
+              "id" : "ec36vyg"
             } ],
             "width" : 6,
             "offset" : 0,
@@ -2644,7 +2644,7 @@
                   "displayMask" : "",
                   "spellcheck" : true,
                   "truncateMultipleSpaces" : false,
-                  "id" : "elot2at"
+                  "id" : "e4zvxs"
                 } ],
                 "width" : 6,
                 "offset" : 0,
@@ -2728,7 +2728,7 @@
                   "properties" : { },
                   "allowMultipleMasks" : false,
                   "addons" : [ ],
-                  "id" : "e7mqver"
+                  "id" : "evw086o"
                 } ],
                 "width" : 6,
                 "offset" : 0,
@@ -2801,7 +2801,7 @@
               "tree" : false,
               "lazyLoad" : false,
               "autoAdjust" : false,
-              "id" : "enb8mpg"
+              "id" : "ebg4sur"
             } ],
             "width" : 6,
             "offset" : 0,
@@ -2874,7 +2874,7 @@
           "addons" : [ ],
           "tree" : false,
           "lazyLoad" : false,
-          "id" : "eqcsi7"
+          "id" : "e4uiura"
         }, {
           "label" : "Columns",
           "columns" : [ {
@@ -2954,7 +2954,7 @@
               "displayMask" : "",
               "spellcheck" : true,
               "truncateMultipleSpaces" : false,
-              "id" : "eu641ai"
+              "id" : "eloqwu9"
             } ],
             "width" : 6,
             "offset" : 0,
@@ -3038,7 +3038,7 @@
               "properties" : { },
               "allowMultipleMasks" : false,
               "addons" : [ ],
-              "id" : "eo5k0m9"
+              "id" : "ef2ft4d"
             } ],
             "width" : 6,
             "offset" : 0,
@@ -3111,7 +3111,7 @@
           "tree" : false,
           "lazyLoad" : false,
           "autoAdjust" : false,
-          "id" : "ecctu79"
+          "id" : "eztt1zi"
         }, {
           "label" : "Value date",
           "tableView" : false,
@@ -3225,7 +3225,7 @@
             "arrowkeys" : true
           },
           "customOptions" : { },
-          "id" : "e7fv408"
+          "id" : "ert0w4"
         } ],
         "placeholder" : "",
         "prefix" : "",
@@ -3265,7 +3265,7 @@
         "addons" : [ ],
         "tree" : false,
         "lazyLoad" : false,
-        "id" : "eufobv4"
+        "id" : "e5qq3op"
       } ],
       "placeholder" : "",
       "prefix" : "",
@@ -3446,7 +3446,7 @@
             "key" : "username",
             "type" : "textfield",
             "input" : true,
-            "id" : "e5elesb000000000000000000",
+            "id" : "e5elesb00000000000000000000",
             "placeholder" : "",
             "prefix" : "",
             "customClass" : "",
@@ -3525,7 +3525,7 @@
             "key" : "role",
             "type" : "textfield",
             "input" : true,
-            "id" : "etjl9uf000000000000000000",
+            "id" : "etjl9uf00000000000000000000",
             "placeholder" : "",
             "prefix" : "",
             "customClass" : "",
@@ -3604,7 +3604,7 @@
             "key" : "stepName",
             "type" : "textfield",
             "input" : true,
-            "id" : "enw8ydv000000000000000000",
+            "id" : "enw8ydv00000000000000000000",
             "placeholder" : "",
             "prefix" : "",
             "customClass" : "",
@@ -3715,7 +3715,7 @@
               "disableWeekdays" : false,
               "maxDate" : null
             },
-            "id" : "elkwc25000000000000000000",
+            "id" : "elkwc2500000000000000000000",
             "placeholder" : "",
             "prefix" : "",
             "customClass" : "",
@@ -3799,7 +3799,7 @@
             "key" : "comment",
             "type" : "textfield",
             "input" : true,
-            "id" : "esoaceg000000000000000000",
+            "id" : "esoaceg00000000000000000000",
             "placeholder" : "",
             "prefix" : "",
             "customClass" : "",

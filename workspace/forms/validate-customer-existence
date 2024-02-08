@@ -1,6 +1,6 @@
 {
   "name" : "validate-customer-existence",
-  "modified" : 1707234107222,
+  "modified" : 1707240331301,
   "schema" : {
     "_id" : 6250093,
     "components" : [ {
@@ -255,7 +255,7 @@
       "unique" : false,
       "errorLabel" : "",
       "errors" : "",
-      "key" : "textField",
+      "key" : "nationalId",
       "tags" : [ ],
       "properties" : { },
       "conditional" : {
@@ -281,7 +281,7 @@
       "dataGridLabel" : false,
       "addons" : [ ],
       "inputType" : "text",
-      "id" : "eb0dlv9",
+      "id" : "elpqzbo",
       "defaultValue" : ""
     }, {
       "label" : "Customer Birth Date",
@@ -319,6 +319,7 @@
         }
       },
       "dayFirst" : false,
+      "defaultValue" : "00/00/0000",
       "persistent" : true,
       "protected" : false,
       "dbIndex" : false,
@@ -379,8 +380,7 @@
       "showWordCount" : false,
       "allowMultipleMasks" : false,
       "addons" : [ ],
-      "id" : "ezytkhm",
-      "defaultValue" : "00/00/0000"
+      "id" : "e7wlcy3"
     }, {
       "label" : "Gender",
       "labelPosition" : "top",

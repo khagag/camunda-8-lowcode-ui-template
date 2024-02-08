@@ -1,0 +1,564 @@
+{
+  "name" : "config-screen-1",
+  "modified" : 1707294620044,
+  "schema" : {
+    "_id" : 7218294,
+    "components": [
+      {
+          "title": "LOS Configurations Dashboard",
+          "theme": "danger",
+          "collapsible": false,
+          "key": "losConfigurationsDashboard",
+          "type": "panel",
+          "label": "Panel",
+          "input": false,
+          "tableView": false,
+          "components": [
+              {
+                  "title": "LOS Products",
+                  "theme": "danger",
+                  "collapsible": false,
+                  "key": "losProducts",
+                  "type": "panel",
+                  "label": "Panel",
+                  "input": false,
+                  "tableView": false,
+                  "components": [
+                      {
+                          "label": "Table",
+                          "cloneRows": true,
+                          "cellAlignment": "left",
+                          "striped": true,
+                          "bordered": true,
+                          "key": "table",
+                          "type": "table",
+                          "numRows": 5,
+                          "numCols": 4,
+                          "input": false,
+                          "tableView": false,
+                          "rows": [
+                              [
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Product name",
+                                              "applyMaskOn": "change",
+                                              "tableView": true,
+                                              "key": "productName",
+                                              "type": "textfield",
+                                              "input": true,
+                                              "defaultValue": "Personal Cash Loan - Unsecured Emp With ITL - Gov- Army-Multy National (120 Months)"
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Interest rate",
+                                              "applyMaskOn": "change",
+                                              "mask": false,
+                                              "tableView": false,
+                                              "delimiter": false,
+                                              "requireDecimal": false,
+                                              "inputFormat": "plain",
+                                              "truncateMultipleSpaces": false,
+                                              "key": "interestRate",
+                                              "type": "number",
+                                              "input": true,
+                                              "defaultValue": 10
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Delete",
+                                              "showValidations": false,
+                                              "theme": "danger",
+                                              "tableView": false,
+                                              "key": "delete",
+                                              "type": "button",
+                                              "input": true,
+                                              "saveOnEnter": false
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Save",
+                                              "showValidations": false,
+                                              "theme": "success",
+                                              "tableView": false,
+                                              "key": "save",
+                                              "type": "button",
+                                              "input": true,
+                                              "saveOnEnter": false
+                                          }
+                                      ]
+                                  }
+                              ],
+                              [
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Product name",
+                                              "applyMaskOn": "change",
+                                              "tableView": true,
+                                              "key": "textField1",
+                                              "type": "textfield",
+                                              "input": true,
+                                              "defaultValue": "Personal Cash Loan - Unsecured Employees With STL ( 72 Months) Tier 1 /2 /3"
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Interest rate",
+                                              "applyMaskOn": "change",
+                                              "mask": false,
+                                              "tableView": false,
+                                              "delimiter": false,
+                                              "requireDecimal": false,
+                                              "inputFormat": "plain",
+                                              "truncateMultipleSpaces": false,
+                                              "key": "number4",
+                                              "type": "number",
+                                              "input": true,
+                                              "defaultValue": 20
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Delete",
+                                              "showValidations": false,
+                                              "theme": "danger",
+                                              "tableView": false,
+                                              "key": "submit2",
+                                              "type": "button",
+                                              "input": true,
+                                              "saveOnEnter": false
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Save",
+                                              "showValidations": false,
+                                              "theme": "success",
+                                              "tableView": false,
+                                              "key": "submit6",
+                                              "type": "button",
+                                              "input": true,
+                                              "saveOnEnter": false
+                                          }
+                                      ]
+                                  }
+                              ],
+                              [
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Product name",
+                                              "applyMaskOn": "change",
+                                              "tableView": true,
+                                              "key": "textField2",
+                                              "type": "textfield",
+                                              "input": true,
+                                              "defaultValue": "Personal Cash Loan - Unsecured Employees Without STL/ITL - Tier 2 ( 60 Months ) Matrix 1"
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Interest rate",
+                                              "applyMaskOn": "change",
+                                              "mask": false,
+                                              "tableView": false,
+                                              "delimiter": false,
+                                              "requireDecimal": false,
+                                              "inputFormat": "plain",
+                                              "truncateMultipleSpaces": false,
+                                              "key": "number1",
+                                              "type": "number",
+                                              "input": true,
+                                              "defaultValue": 19.5
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Delete",
+                                              "showValidations": false,
+                                              "theme": "danger",
+                                              "tableView": false,
+                                              "key": "submit3",
+                                              "type": "button",
+                                              "input": true,
+                                              "saveOnEnter": false
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Save",
+                                              "showValidations": false,
+                                              "theme": "success",
+                                              "tableView": false,
+                                              "key": "submit7",
+                                              "type": "button",
+                                              "input": true,
+                                              "saveOnEnter": false
+                                          }
+                                      ]
+                                  }
+                              ],
+                              [
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Product name",
+                                              "applyMaskOn": "change",
+                                              "tableView": true,
+                                              "key": "textField3",
+                                              "type": "textfield",
+                                              "input": true,
+                                              "defaultValue": "Personal Cash Loan - Unsecured Doctors"
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Interest rate",
+                                              "applyMaskOn": "change",
+                                              "mask": false,
+                                              "tableView": false,
+                                              "delimiter": false,
+                                              "requireDecimal": false,
+                                              "inputFormat": "plain",
+                                              "truncateMultipleSpaces": false,
+                                              "key": "number2",
+                                              "type": "number",
+                                              "input": true,
+                                              "defaultValue": 16.5
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Delete",
+                                              "showValidations": false,
+                                              "theme": "danger",
+                                              "tableView": false,
+                                              "key": "submit4",
+                                              "type": "button",
+                                              "input": true,
+                                              "saveOnEnter": false
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Save",
+                                              "showValidations": false,
+                                              "theme": "success",
+                                              "tableView": false,
+                                              "key": "submit8",
+                                              "type": "button",
+                                              "input": true,
+                                              "saveOnEnter": false
+                                          }
+                                      ]
+                                  }
+                              ],
+                              [
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Product name",
+                                              "applyMaskOn": "change",
+                                              "tableView": true,
+                                              "defaultValue": "Personal Cash Loan - Ahly Club Membership Unsecured 50% DP -Self Employed (No Income Proof )(96 Months)",
+                                              "key": "textField4",
+                                              "type": "textfield",
+                                              "input": true
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Interest rate",
+                                              "applyMaskOn": "change",
+                                              "mask": false,
+                                              "tableView": false,
+                                              "delimiter": false,
+                                              "requireDecimal": false,
+                                              "inputFormat": "plain",
+                                              "truncateMultipleSpaces": false,
+                                              "key": "number3",
+                                              "type": "number",
+                                              "input": true,
+                                              "defaultValue": 20
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Delete",
+                                              "showValidations": false,
+                                              "theme": "danger",
+                                              "tableView": false,
+                                              "key": "submit5",
+                                              "type": "button",
+                                              "input": true,
+                                              "saveOnEnter": false
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Save",
+                                              "showValidations": false,
+                                              "theme": "success",
+                                              "tableView": false,
+                                              "key": "submit9",
+                                              "type": "button",
+                                              "input": true,
+                                              "saveOnEnter": false
+                                          }
+                                      ]
+                                  }
+                              ]
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "title": "Fees",
+                  "theme": "danger",
+                  "collapsible": false,
+                  "key": "fees",
+                  "type": "panel",
+                  "label": "Panel",
+                  "input": false,
+                  "tableView": false,
+                  "components": [
+                      {
+                          "label": "Table",
+                          "cloneRows": true,
+                          "cellAlignment": "left",
+                          "striped": true,
+                          "bordered": true,
+                          "key": "table1",
+                          "type": "table",
+                          "numRows": 2,
+                          "numCols": 6,
+                          "input": false,
+                          "tableView": false,
+                          "rows": [
+                              [
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Fee name",
+                                              "applyMaskOn": "change",
+                                              "tableView": true,
+                                              "key": "feeName",
+                                              "type": "textfield",
+                                              "input": true,
+                                              "defaultValue": "Govenment fees"
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Description",
+                                              "applyMaskOn": "change",
+                                              "tableView": true,
+                                              "key": "description",
+                                              "type": "textfield",
+                                              "input": true,
+                                              "defaultValue": "Government fees"
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Amount",
+                                              "applyMaskOn": "change",
+                                              "mask": false,
+                                              "tableView": false,
+                                              "delimiter": false,
+                                              "requireDecimal": false,
+                                              "inputFormat": "plain",
+                                              "truncateMultipleSpaces": false,
+                                              "key": "amount",
+                                              "type": "number",
+                                              "input": true,
+                                              "defaultValue": 0.5
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Applied to",
+                                              "applyMaskOn": "change",
+                                              "tableView": true,
+                                              "key": "appliedTo",
+                                              "type": "textfield",
+                                              "input": true,
+                                              "defaultValue": "701"
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Delete",
+                                              "showValidations": false,
+                                              "theme": "danger",
+                                              "tableView": false,
+                                              "key": "delete1",
+                                              "type": "button",
+                                              "input": true,
+                                              "saveOnEnter": false
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Save",
+                                              "showValidations": false,
+                                              "theme": "success",
+                                              "tableView": false,
+                                              "key": "save1",
+                                              "type": "button",
+                                              "input": true,
+                                              "saveOnEnter": false
+                                          }
+                                      ]
+                                  }
+                              ],
+                              [
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Fee name",
+                                              "applyMaskOn": "change",
+                                              "tableView": true,
+                                              "key": "textField5",
+                                              "type": "textfield",
+                                              "input": true,
+                                              "defaultValue": "Tax fees"
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Description",
+                                              "applyMaskOn": "change",
+                                              "tableView": true,
+                                              "key": "textField7",
+                                              "type": "textfield",
+                                              "input": true,
+                                              "defaultValue": "Tax fees"
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Amount",
+                                              "applyMaskOn": "change",
+                                              "mask": false,
+                                              "tableView": false,
+                                              "delimiter": false,
+                                              "requireDecimal": false,
+                                              "inputFormat": "plain",
+                                              "truncateMultipleSpaces": false,
+                                              "key": "number5",
+                                              "type": "number",
+                                              "input": true,
+                                              "defaultValue": 0.8
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Applied to",
+                                              "applyMaskOn": "change",
+                                              "tableView": true,
+                                              "key": "textField9",
+                                              "type": "textfield",
+                                              "input": true,
+                                              "defaultValue": "705"
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Delete",
+                                              "showValidations": false,
+                                              "theme": "danger",
+                                              "tableView": false,
+                                              "key": "submit10",
+                                              "type": "button",
+                                              "input": true,
+                                              "saveOnEnter": false
+                                          }
+                                      ]
+                                  },
+                                  {
+                                      "components": [
+                                          {
+                                              "label": "Save",
+                                              "showValidations": false,
+                                              "theme": "success",
+                                              "tableView": false,
+                                              "key": "submit12",
+                                              "type": "button",
+                                              "input": true,
+                                              "saveOnEnter": false
+                                          }
+                                      ]
+                                  }
+                              ]
+                          ]
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "type": "button",
+          "label": "Submit",
+          "key": "submit",
+          "disableOnInvalid": true,
+          "input": true,
+          "tableView": false
+      }
+  ]
+  },
+  "previewData" : { },
+  "generator" : "formIo"
+}
