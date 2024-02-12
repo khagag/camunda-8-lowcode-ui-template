@@ -1,6 +1,6 @@
 {
   "name" : "validate-customer-existence",
-  "modified" : 1707240331301,
+  "modified" : 1707761222870,
   "schema" : {
     "_id" : 6250093,
     "components" : [ {
@@ -346,7 +346,7 @@
         "unique" : false
       },
       "errors" : "",
-      "key" : "customerBirthDate1",
+      "key" : "dateOfBirth",
       "tags" : [ ],
       "properties" : { },
       "conditional" : {
@@ -380,7 +380,7 @@
       "showWordCount" : false,
       "allowMultipleMasks" : false,
       "addons" : [ ],
-      "id" : "e7wlcy3"
+      "id" : "e1h8a07"
     }, {
       "label" : "Gender",
       "labelPosition" : "top",

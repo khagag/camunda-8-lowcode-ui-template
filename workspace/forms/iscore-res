@@ -1914,7 +1914,7 @@
             "inputFormat" : "plain",
             "truncateMultipleSpaces" : false,
             "key" : "mobileNumber",
-            "type" : "number",
+            "type" : "textfield",
             "input" : true,
             "placeholder" : "",
             "prefix" : "",
