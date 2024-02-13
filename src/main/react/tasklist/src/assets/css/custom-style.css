@@ -1,3 +1,23 @@
-.blackBack {
-    background-color: #000 !important;
-}
+.burger-icon {
+    position: fixed;
+    left: 0;
+    top: 13%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #ED454C;
+    border-radius: 0 50px 50px  0; /* Half-rounded to the right */
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 9999999999999999;
+  }
+  
+  .burger-icon span {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    margin: 5px 0;
+  }
+  

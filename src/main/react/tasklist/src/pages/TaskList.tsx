@@ -16,6 +16,9 @@ import Row from 'react-bootstrap/Row';
 import Table from 'react-bootstrap/Table';
 
 import { useTranslation } from "react-i18next";
+import { Collapse } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 let timeOutId: any | undefined = undefined;
 function TaskList() {
@@ -89,13 +92,21 @@ function TaskList() {
       timeOutId = setTimeout(() => dispatch(taskService.fetchTasks()), 600);
     }
   }, [typing]);
+  const [open, setOpen] = useState(true);
+  const [isCollapsed, setIsCollapsed] = useState(false);
 
   return (
     tasks && tasklistConf && taskSearch ?
+    <>
+      <div onClick={() => setIsCollapsed(!isCollapsed)} className='burger-icon'>
+        {/* {isCollapsed ? 'Expand' : 'Collapse'} */}
+        <FontAwesomeIcon icon={faBars} style={{color: "#ffffff",}} />
+      </div>
     <div className="row flex-nowrap">
+        <Collapse in={!isCollapsed}>
       <Col className="tasklist ps-md-2 pt-2">
-        <Table striped hover variant="light" className="taskListContainer">
-          <thead >
+        <Table striped hover variant="light" className="taskListContainer example-collapse-text">
+          <thead >  
             <tr >
               <th className="bg-primary text-light"></th>
               {tasklistConf.columns ? tasklistConf.columns.map((column: any, index: number) =>
@@ -131,6 +142,7 @@ function TaskList() {
           </tfoot>
         </Table>
       </Col>
+        </Collapse>
       {tasklistConf.splitPage ?
         <Col className="ps-md-2 pt-2">
           <TaskForm />
@@ -222,6 +234,7 @@ function TaskList() {
         </Modal.Footer>
       </Modal>
       </div>
+      </>
       : <></>
   );
 }
