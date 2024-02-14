@@ -1283,15 +1283,24 @@
             "dataSrc" : "values",
             "data" : {
               "values" : [ {
-                "label" : "Secured - 20% Employees (Income proof)",
-                "value" : "Secured - 20% Employees (Income proof)"
+                "label" : "Car Loan - Unsecured 20% DP - Employees (Income Proof) (84 M)\" + \" (\" + \"10.00\" + \"%)\"",
+                "value" : "701"
               }, {
-                "label" : "Secured - 15% Self Employed (Income proof)",
-                "value" : "Secured - 15% Self Employed (Income proof)"
+                "label" : "Car Loan - Unsecured 20% DP - Self Employed (Income Proof) (84 M)\" + \" (\" + \"20.00\" + \"%)",
+                "value" : "702"
+              }, {
+                "label" : "Car Loan - Unsecured 20% DP - Employees (Income Proof) (72 M) SAIB Excellence\" + \" (\" + \"19.50\" + \"%)",
+                "value" : "622EGP"
+              }, {
+                "label" : "Car Loan - Unsecured 50% DP - Employees (No Income Proof / No Ins)(72 M)\" + \" (\" + \"19.25\" + \"%)",
+                "value" : "623EGP"
+              }, {
+                "label" : "Car Loan - Unsecured 50% DP - Self Employed (No Income Proof / No Ins)(72 M)\" + \" (\" + \"22.75\" + \"%)",
+                "value" : "730"
               } ],
               "resource" : "",
-              "json" : "",
               "url" : "",
+              "json" : "",
               "custom" : ""
             },
             "dataType" : "",

@@ -1,6 +1,6 @@
 {
   "name" : "iscore-res",
-  "modified" : 1707854886460,
+  "modified" : 1707927253129,
   "schema" : {
     "_id" : 7611984,
     "components" : [ {
@@ -123,7 +123,7 @@
             "displayMask" : "",
             "spellcheck" : true,
             "truncateMultipleSpaces" : false,
-            "id" : "e7ujx7o"
+            "id" : "eb3xmpb"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -217,7 +217,7 @@
             "dataGridLabel" : false,
             "addons" : [ ],
             "inputType" : "text",
-            "id" : "en0wp9f",
+            "id" : "eupgnh",
             "defaultValue" : null
           } ],
           "width" : 6,
@@ -287,7 +287,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "erpgoac"
+        "id" : "evcb1nc"
       }, {
         "label" : "Columns",
         "columns" : [ {
@@ -367,7 +367,7 @@
             "displayMask" : "",
             "spellcheck" : true,
             "truncateMultipleSpaces" : false,
-            "id" : "efje5o8"
+            "id" : "evz95y"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -452,7 +452,7 @@
             "displayMask" : "",
             "spellcheck" : true,
             "truncateMultipleSpaces" : false,
-            "id" : "efm0fe8"
+            "id" : "ekyyfq7"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -525,7 +525,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "e8ib0f"
+        "id" : "eg98uqz"
       }, {
         "label" : "Columns",
         "columns" : [ {
@@ -614,7 +614,7 @@
             "dataGridLabel" : false,
             "addons" : [ ],
             "inputType" : "text",
-            "id" : "eqvckse",
+            "id" : "e6529jr",
             "defaultValue" : null
           } ],
           "width" : 6,
@@ -700,7 +700,7 @@
             "displayMask" : "",
             "spellcheck" : true,
             "truncateMultipleSpaces" : false,
-            "id" : "eb0l9ba"
+            "id" : "em1kns"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -773,7 +773,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "ejuvjf"
+        "id" : "ed05b6p"
       }, {
         "label" : "Columns",
         "columns" : [ {
@@ -890,7 +890,7 @@
               "arrowkeys" : true
             },
             "customOptions" : { },
-            "id" : "e7rmwu7"
+            "id" : "eyw97uv"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -901,25 +901,100 @@
         }, {
           "components" : [ {
             "label" : "ID Expiry Date",
+            "labelPosition" : "top",
+            "displayInTimezone" : "viewer",
+            "useLocaleSettings" : false,
+            "allowInput" : true,
+            "format" : "yyyy-MM-dd",
+            "placeholder" : "",
+            "description" : "",
+            "tooltip" : "",
+            "customClass" : "",
+            "tabindex" : "",
+            "hidden" : false,
+            "hideLabel" : false,
+            "autofocus" : false,
             "disabled" : true,
             "tableView" : false,
+            "modalEdit" : false,
+            "shortcutButtons" : [ ],
+            "enableDate" : true,
             "datePicker" : {
+              "disable" : "",
+              "disableFunction" : "",
               "disableWeekends" : false,
               "disableWeekdays" : false,
+              "minDate" : null,
+              "maxDate" : null,
               "showWeeks" : true,
               "startingDay" : 0,
               "initDate" : "",
               "minMode" : "day",
               "maxMode" : "year",
               "yearRows" : 4,
-              "yearColumns" : 5,
-              "minDate" : null,
-              "maxDate" : null
+              "yearColumns" : 5
+            },
+            "enableTime" : false,
+            "timePicker" : {
+              "showMeridian" : true,
+              "hourStep" : 1,
+              "minuteStep" : 1,
+              "readonlyInput" : false,
+              "mousewheel" : true,
+              "arrowkeys" : true
+            },
+            "multiple" : false,
+            "defaultValue" : "",
+            "defaultDate" : "",
+            "customOptions" : { },
+            "persistent" : true,
+            "protected" : false,
+            "dbIndex" : false,
+            "encrypted" : false,
+            "redrawOn" : "",
+            "clearOnHide" : true,
+            "customDefaultValue" : "",
+            "calculateValue" : "",
+            "calculateServer" : false,
+            "allowCalculateOverride" : false,
+            "validateOn" : "change",
+            "validate" : {
+              "required" : false,
+              "customMessage" : "",
+              "custom" : "",
+              "customPrivate" : false,
+              "json" : "",
+              "strictDateValidation" : false,
+              "multiple" : false,
+              "unique" : false
             },
             "enableMinDateInput" : false,
             "enableMaxDateInput" : false,
+            "unique" : false,
+            "errorLabel" : "",
+            "errors" : "",
             "key" : "idExpiryDate",
+            "tags" : [ ],
+            "properties" : { },
+            "conditional" : {
+              "show" : null,
+              "when" : null,
+              "eq" : "",
+              "json" : ""
+            },
+            "customConditional" : "",
+            "logic" : [ ],
+            "attributes" : { },
+            "overlay" : {
+              "style" : "",
+              "page" : "",
+              "left" : "",
+              "top" : "",
+              "width" : "",
+              "height" : ""
+            },
             "type" : "datetime",
+            "timezone" : "",
             "input" : true,
             "widget" : {
               "type" : "calendar",
@@ -928,91 +1003,29 @@
               "useLocaleSettings" : false,
               "allowInput" : true,
               "mode" : "single",
-              "enableTime" : true,
+              "enableTime" : false,
               "noCalendar" : false,
-              "format" : "yyyy-MM-dd hh:mm a",
+              "format" : "yyyy-MM-dd",
               "hourIncrement" : 1,
               "minuteIncrement" : 1,
               "time_24hr" : false,
               "minDate" : null,
+              "disabledDates" : "",
               "disableWeekends" : false,
               "disableWeekdays" : false,
+              "disableFunction" : "",
               "maxDate" : null
             },
-            "placeholder" : "",
             "prefix" : "",
-            "customClass" : "",
             "suffix" : "",
-            "multiple" : false,
-            "defaultValue" : "",
-            "protected" : false,
-            "unique" : false,
-            "persistent" : true,
-            "hidden" : false,
-            "clearOnHide" : true,
             "refreshOn" : "",
-            "redrawOn" : "",
-            "modalEdit" : false,
             "dataGridLabel" : false,
-            "labelPosition" : "top",
-            "description" : "",
-            "errorLabel" : "",
-            "tooltip" : "",
-            "hideLabel" : false,
-            "tabindex" : "",
-            "autofocus" : false,
-            "dbIndex" : false,
-            "customDefaultValue" : "",
-            "calculateValue" : "",
-            "calculateServer" : false,
-            "attributes" : { },
-            "validateOn" : "change",
-            "validate" : {
-              "required" : false,
-              "custom" : "",
-              "customPrivate" : false,
-              "strictDateValidation" : false,
-              "multiple" : false,
-              "unique" : false
-            },
-            "conditional" : {
-              "show" : null,
-              "when" : null,
-              "eq" : ""
-            },
-            "overlay" : {
-              "style" : "",
-              "left" : "",
-              "top" : "",
-              "width" : "",
-              "height" : ""
-            },
-            "allowCalculateOverride" : false,
-            "encrypted" : false,
             "showCharCount" : false,
             "showWordCount" : false,
-            "properties" : { },
             "allowMultipleMasks" : false,
             "addons" : [ ],
-            "format" : "yyyy-MM-dd hh:mm a",
-            "useLocaleSettings" : false,
-            "allowInput" : true,
-            "enableDate" : true,
-            "enableTime" : true,
-            "defaultDate" : "",
-            "displayInTimezone" : "viewer",
-            "timezone" : "",
             "datepickerMode" : "day",
-            "timePicker" : {
-              "hourStep" : 1,
-              "minuteStep" : 1,
-              "showMeridian" : true,
-              "readonlyInput" : false,
-              "mousewheel" : true,
-              "arrowkeys" : true
-            },
-            "customOptions" : { },
-            "id" : "etw9x8y"
+            "id" : "er2awyr"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -1085,7 +1098,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "ep8m9hg"
+        "id" : "ei1mb6l"
       } ],
       "placeholder" : "",
       "prefix" : "",
@@ -1125,7 +1138,7 @@
       "addons" : [ ],
       "tree" : false,
       "lazyLoad" : false,
-      "id" : "e5zgixp"
+      "id" : "e4e772i"
     }, {
       "title" : "Loan Data",
       "theme" : "danger",
@@ -1241,7 +1254,7 @@
             "unique" : false,
             "errorLabel" : "",
             "errors" : "",
-            "key" : "productType1",
+            "key" : "productType",
             "tags" : [ ],
             "properties" : { },
             "conditional" : {
@@ -1287,7 +1300,7 @@
               "include" : "score",
               "threshold" : 0.3
             },
-            "id" : "eeicab6",
+            "id" : "epl7g5n",
             "defaultValue" : ""
           } ],
           "width" : 6,
@@ -1373,7 +1386,7 @@
             "displayMask" : "",
             "spellcheck" : true,
             "truncateMultipleSpaces" : false,
-            "id" : "ej0pdug"
+            "id" : "eqhfqv"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -1446,7 +1459,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "ee7mv1"
+        "id" : "ek3q5d1"
       }, {
         "label" : "Columns",
         "columns" : [ {
@@ -1524,7 +1537,7 @@
             "properties" : { },
             "allowMultipleMasks" : false,
             "addons" : [ ],
-            "id" : "ev1l3r"
+            "id" : "em10wabd"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -1605,7 +1618,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "ens22b"
+        "id" : "ec7c0y9"
       } ],
       "placeholder" : "",
       "prefix" : "",
@@ -1645,7 +1658,7 @@
       "addons" : [ ],
       "tree" : false,
       "lazyLoad" : false,
-      "id" : "eger8qc"
+      "id" : "e33itte"
     }, {
       "title" : "Address Data",
       "theme" : "danger",
@@ -1761,7 +1774,7 @@
             "displayMask" : "",
             "spellcheck" : true,
             "truncateMultipleSpaces" : false,
-            "id" : "en98mtp"
+            "id" : "el5jmr2"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -1846,7 +1859,7 @@
             "displayMask" : "",
             "spellcheck" : true,
             "truncateMultipleSpaces" : false,
-            "id" : "e4rdv"
+            "id" : "e8u9so"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -1919,7 +1932,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "eeey3fj"
+        "id" : "ejgk61c"
       }, {
         "label" : "Columns",
         "columns" : [ {
@@ -2001,7 +2014,7 @@
             "properties" : { },
             "allowMultipleMasks" : false,
             "addons" : [ ],
-            "id" : "ehathn",
+            "id" : "e3poig",
             "inputType" : "text",
             "inputMask" : "",
             "displayMask" : "",
@@ -2089,7 +2102,7 @@
             "properties" : { },
             "allowMultipleMasks" : false,
             "addons" : [ ],
-            "id" : "ezkpj4r"
+            "id" : "e73xe6g"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -2162,7 +2175,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "e3frmkb"
+        "id" : "ecj4tqs9"
       } ],
       "placeholder" : "",
       "prefix" : "",
@@ -2202,7 +2215,7 @@
       "addons" : [ ],
       "tree" : false,
       "lazyLoad" : false,
-      "id" : "eu7px5o"
+      "id" : "e9kctqb"
     }, {
       "title" : "Comment History",
       "theme" : "danger",
@@ -2322,7 +2335,7 @@
         "wysiwyg" : false,
         "editor" : "",
         "fixedSize" : true,
-        "id" : "ecz4le"
+        "id" : "ebn595g"
       }, {
         "label" : "Comment History",
         "cellAlignment" : "left",
@@ -2343,7 +2356,7 @@
             "key" : "username",
             "type" : "textfield",
             "input" : true,
-            "id" : "e47sz6",
+            "id" : "eto55ws",
             "placeholder" : "",
             "prefix" : "",
             "customClass" : "",
@@ -2422,7 +2435,7 @@
             "key" : "role",
             "type" : "textfield",
             "input" : true,
-            "id" : "e6j7kya",
+            "id" : "e8e43or",
             "placeholder" : "",
             "prefix" : "",
             "customClass" : "",
@@ -2501,7 +2514,7 @@
             "key" : "stepName",
             "type" : "textfield",
             "input" : true,
-            "id" : "e763fph",
+            "id" : "eyjcgc",
             "placeholder" : "",
             "prefix" : "",
             "customClass" : "",
@@ -2612,7 +2625,7 @@
               "disableWeekdays" : false,
               "maxDate" : null
             },
-            "id" : "eirk1gf",
+            "id" : "e64f9ss",
             "placeholder" : "",
             "prefix" : "",
             "customClass" : "",
@@ -2696,7 +2709,7 @@
             "key" : "comment",
             "type" : "textfield",
             "input" : true,
-            "id" : "empdvzi",
+            "id" : "eid5rho",
             "placeholder" : "",
             "prefix" : "",
             "customClass" : "",
@@ -2831,7 +2844,7 @@
         "cloneRows" : false,
         "hover" : false,
         "condensed" : false,
-        "id" : "exyt9f"
+        "id" : "ejw40zn"
       }, {
         "label" : "Table",
         "cellAlignment" : "left",
@@ -2908,7 +2921,7 @@
         "cloneRows" : false,
         "hover" : false,
         "condensed" : false,
-        "id" : "e04fne"
+        "id" : "ei53lkl"
       } ],
       "placeholder" : "",
       "prefix" : "",
@@ -2948,7 +2961,7 @@
       "addons" : [ ],
       "tree" : false,
       "lazyLoad" : false,
-      "id" : "ekne6xv"
+      "id" : "ecpcybo"
     }, {
       "label" : "Columns",
       "columns" : [ {
@@ -3033,7 +3046,7 @@
           "leftIcon" : "",
           "rightIcon" : "",
           "block" : false,
-          "id" : "e0x45lk"
+          "id" : "eikrbw"
         } ],
         "width" : 4,
         "offset" : 0,
@@ -3121,7 +3134,7 @@
           "showWordCount" : false,
           "allowMultipleMasks" : false,
           "addons" : [ ],
-          "id" : "ecxdqxx",
+          "id" : "el9n1e",
           "saveOnEnter" : false
         } ],
         "width" : 4,
@@ -3200,7 +3213,7 @@
       "addons" : [ ],
       "tree" : false,
       "lazyLoad" : false,
-      "id" : "e95d21r"
+      "id" : "e5uiyti"
     } ]
   },
   "previewData" : { },
