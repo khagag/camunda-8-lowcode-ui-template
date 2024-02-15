@@ -1,6 +1,6 @@
 {
   "name" : "loan-inputs",
-  "modified" : 1707855789889,
+  "modified" : 1707999383922,
   "schema" : {
     "_id" : 7611984,
     "components" : [ {
@@ -132,7 +132,7 @@
             "dataGridLabel" : false,
             "addons" : [ ],
             "inputType" : "text",
-            "id" : "e0yquwm",
+            "id" : "elit1tg",
             "defaultValue" : null
           } ],
           "width" : 6,
@@ -227,7 +227,7 @@
             "dataGridLabel" : false,
             "addons" : [ ],
             "inputType" : "text",
-            "id" : "evi60zw",
+            "id" : "epz3m7",
             "defaultValue" : null
           } ],
           "width" : 6,
@@ -297,7 +297,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "e0ykjn"
+        "id" : "e4bjvvo"
       }, {
         "label" : "Columns",
         "columns" : [ {
@@ -377,7 +377,7 @@
             "displayMask" : "",
             "spellcheck" : true,
             "truncateMultipleSpaces" : false,
-            "id" : "e4ceb7"
+            "id" : "e90zx3n"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -462,7 +462,7 @@
             "displayMask" : "",
             "spellcheck" : true,
             "truncateMultipleSpaces" : false,
-            "id" : "eojikev"
+            "id" : "eu8mq9"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -535,7 +535,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "evftq"
+        "id" : "ejuan2t"
       }, {
         "label" : "Columns",
         "columns" : [ {
@@ -615,7 +615,7 @@
             "displayMask" : "",
             "spellcheck" : true,
             "truncateMultipleSpaces" : false,
-            "id" : "eykx42"
+            "id" : "e9mugv"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -700,7 +700,7 @@
             "displayMask" : "",
             "spellcheck" : true,
             "truncateMultipleSpaces" : false,
-            "id" : "evhjex"
+            "id" : "e0r8rc"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -773,7 +773,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "eg83ys"
+        "id" : "eyqfliq"
       }, {
         "label" : "Columns",
         "columns" : [ {
@@ -890,7 +890,7 @@
               "arrowkeys" : true
             },
             "customOptions" : { },
-            "id" : "ee0q48l"
+            "id" : "e3fwvmb"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -1025,7 +1025,7 @@
             "allowMultipleMasks" : false,
             "addons" : [ ],
             "datepickerMode" : "day",
-            "id" : "e2w50t"
+            "id" : "eu0eua"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -1098,7 +1098,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "eh4s7cs"
+        "id" : "ekgdd4"
       } ],
       "placeholder" : "",
       "prefix" : "",
@@ -1138,7 +1138,7 @@
       "addons" : [ ],
       "tree" : false,
       "lazyLoad" : false,
-      "id" : "e44c0po"
+      "id" : "ekl5iq"
     }, {
       "title" : "Loan Data",
       "theme" : "danger",
@@ -1254,7 +1254,7 @@
             "displayMask" : "",
             "spellcheck" : true,
             "truncateMultipleSpaces" : false,
-            "id" : "e84rzbo"
+            "id" : "ek7swdf"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -1385,7 +1385,7 @@
               "include" : "score",
               "threshold" : 0.3
             },
-            "id" : "emud13i",
+            "id" : "e2t299k",
             "defaultValue" : ""
           } ],
           "width" : 6,
@@ -1459,7 +1459,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "e7g5qpp"
+        "id" : "eihr97b"
       }, {
         "label" : "Columns",
         "columns" : [ {
@@ -1538,7 +1538,7 @@
             "properties" : { },
             "allowMultipleMasks" : false,
             "addons" : [ ],
-            "id" : "ey8xtw"
+            "id" : "e7f8yl"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -1619,7 +1619,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "epn8eg"
+        "id" : "esrhvqi"
       } ],
       "placeholder" : "",
       "prefix" : "",
@@ -1659,7 +1659,7 @@
       "addons" : [ ],
       "tree" : false,
       "lazyLoad" : false,
-      "id" : "el5wfkj"
+      "id" : "erms44n"
     }, {
       "title" : "Address Data",
       "theme" : "danger",
@@ -1775,7 +1775,7 @@
             "displayMask" : "",
             "spellcheck" : true,
             "truncateMultipleSpaces" : false,
-            "id" : "em7rf3"
+            "id" : "euorl9f"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -1860,7 +1860,7 @@
             "displayMask" : "",
             "spellcheck" : true,
             "truncateMultipleSpaces" : false,
-            "id" : "epxco4b"
+            "id" : "eowirge"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -1933,7 +1933,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "e9lblq"
+        "id" : "e2nm5lh"
       }, {
         "label" : "Columns",
         "columns" : [ {
@@ -2012,7 +2012,7 @@
             "properties" : { },
             "allowMultipleMasks" : false,
             "addons" : [ ],
-            "id" : "e32am5e"
+            "id" : "e91osd"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -2096,7 +2096,7 @@
             "properties" : { },
             "allowMultipleMasks" : false,
             "addons" : [ ],
-            "id" : "em3ejcl"
+            "id" : "ewbzkzj"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -2169,7 +2169,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "e5l0ath"
+        "id" : "em5avem"
       } ],
       "placeholder" : "",
       "prefix" : "",
@@ -2209,7 +2209,7 @@
       "addons" : [ ],
       "tree" : false,
       "lazyLoad" : false,
-      "id" : "e058an9"
+      "id" : "el77pw9"
     }, {
       "title" : "Loan Details",
       "theme" : "danger",
@@ -2331,7 +2331,7 @@
         "dataGridLabel" : false,
         "addons" : [ ],
         "inputType" : "text",
-        "id" : "ed16fb9"
+        "id" : "ekjdo7"
       }, {
         "title" : "Loan Input",
         "theme" : "danger",
@@ -2450,7 +2450,7 @@
                   "displayMask" : "",
                   "spellcheck" : true,
                   "truncateMultipleSpaces" : false,
-                  "id" : "e97hhim"
+                  "id" : "el7028"
                 } ],
                 "width" : 6,
                 "offset" : 0,
@@ -2480,7 +2480,7 @@
                   "key" : "currency",
                   "type" : "select",
                   "input" : true,
-                  "id" : "epj02l9",
+                  "id" : "e0ebjcm",
                   "placeholder" : "",
                   "prefix" : "",
                   "customClass" : "",
@@ -2636,7 +2636,7 @@
               "tree" : false,
               "lazyLoad" : false,
               "autoAdjust" : false,
-              "id" : "ei5s4g"
+              "id" : "enn6uij"
             } ],
             "width" : 6,
             "offset" : 0,
@@ -2724,7 +2724,7 @@
                   "displayMask" : "",
                   "spellcheck" : true,
                   "truncateMultipleSpaces" : false,
-                  "id" : "et0nhog"
+                  "id" : "ettwn3j"
                 } ],
                 "width" : 6,
                 "offset" : 0,
@@ -2734,81 +2734,92 @@
                 "currentWidth" : 6
               }, {
                 "components" : [ {
-                  "label" : "Interest rate",
-                  "applyMaskOn" : "change",
-                  "mask" : false,
-                  "tableView" : false,
-                  "delimiter" : false,
-                  "requireDecimal" : false,
-                  "inputFormat" : "plain",
-                  "truncateMultipleSpaces" : false,
-                  "key" : "interestRate",
-                  "type" : "number",
-                  "input" : true,
-                  "placeholder" : "",
-                  "prefix" : "",
-                  "customClass" : "",
-                  "suffix" : "",
-                  "multiple" : false,
-                  "defaultValue" : null,
-                  "protected" : false,
-                  "unique" : false,
-                  "persistent" : true,
-                  "hidden" : false,
-                  "clearOnHide" : true,
-                  "refreshOn" : "",
-                  "redrawOn" : "",
-                  "modalEdit" : false,
-                  "dataGridLabel" : false,
+                  "label" : "Interest Rate",
                   "labelPosition" : "top",
+                  "placeholder" : "",
                   "description" : "",
-                  "errorLabel" : "",
                   "tooltip" : "",
-                  "hideLabel" : false,
-                  "tabindex" : "",
-                  "disabled" : false,
-                  "autofocus" : false,
-                  "dbIndex" : false,
-                  "customDefaultValue" : "",
-                  "calculateValue" : "",
-                  "calculateServer" : false,
+                  "prefix" : "",
+                  "suffix" : "",
                   "widget" : {
                     "type" : "input"
                   },
-                  "attributes" : { },
+                  "inputMask" : "",
+                  "displayMask" : "",
+                  "applyMaskOn" : "change",
+                  "allowMultipleMasks" : false,
+                  "customClass" : "",
+                  "tabindex" : "",
+                  "autocomplete" : "",
+                  "hidden" : false,
+                  "hideLabel" : false,
+                  "showWordCount" : false,
+                  "showCharCount" : false,
+                  "mask" : false,
+                  "autofocus" : false,
+                  "spellcheck" : true,
+                  "disabled" : false,
+                  "tableView" : true,
+                  "modalEdit" : false,
+                  "multiple" : false,
+                  "persistent" : true,
+                  "inputFormat" : "plain",
+                  "protected" : false,
+                  "dbIndex" : false,
+                  "case" : "",
+                  "truncateMultipleSpaces" : false,
+                  "encrypted" : false,
+                  "redrawOn" : "",
+                  "clearOnHide" : true,
+                  "customDefaultValue" : "",
+                  "calculateValue" : "",
+                  "calculateServer" : false,
+                  "allowCalculateOverride" : false,
                   "validateOn" : "change",
                   "validate" : {
                     "required" : false,
+                    "pattern" : "",
+                    "customMessage" : "",
                     "custom" : "",
                     "customPrivate" : false,
+                    "json" : "",
+                    "minLength" : "",
+                    "maxLength" : "",
                     "strictDateValidation" : false,
                     "multiple" : false,
-                    "unique" : false,
-                    "min" : "",
-                    "max" : "",
-                    "step" : "any",
-                    "integer" : ""
+                    "unique" : false
                   },
+                  "unique" : false,
+                  "errorLabel" : "",
+                  "errors" : "",
+                  "key" : "interestRate",
+                  "tags" : [ ],
+                  "properties" : { },
                   "conditional" : {
                     "show" : null,
                     "when" : null,
-                    "eq" : ""
+                    "eq" : "",
+                    "json" : ""
                   },
+                  "customConditional" : "",
+                  "logic" : [ ],
+                  "attributes" : { },
                   "overlay" : {
                     "style" : "",
+                    "page" : "",
                     "left" : "",
                     "top" : "",
                     "width" : "",
                     "height" : ""
                   },
-                  "allowCalculateOverride" : false,
-                  "encrypted" : false,
-                  "showCharCount" : false,
-                  "showWordCount" : false,
-                  "properties" : { },
-                  "allowMultipleMasks" : false,
+                  "type" : "textfield",
+                  "input" : true,
+                  "refreshOn" : "",
+                  "dataGridLabel" : false,
                   "addons" : [ ],
-                  "id" : "ehah1g"
+                  "inputType" : "text",
+                  "id" : "ea3azcs",
+                  "defaultValue" : ""
                 } ],
                 "width" : 6,
                 "offset" : 0,
@@ -2881,7 +2892,7 @@
               "tree" : false,
               "lazyLoad" : false,
               "autoAdjust" : false,
-              "id" : "e9do3s8"
+              "id" : "ezb8dcd"
             } ],
             "width" : 6,
             "offset" : 0,
@@ -2954,7 +2965,7 @@
           "addons" : [ ],
           "tree" : false,
           "lazyLoad" : false,
-          "id" : "e97c1o"
+          "id" : "ez7qpui"
         }, {
           "label" : "Columns",
           "columns" : [ {
@@ -3043,7 +3054,7 @@
               "dataGridLabel" : false,
               "addons" : [ ],
               "inputType" : "text",
-              "id" : "embkr6j",
+              "id" : "ekuqbf",
               "defaultValue" : ""
             } ],
             "width" : 6,
@@ -3128,7 +3139,7 @@
               "properties" : { },
               "allowMultipleMasks" : false,
               "addons" : [ ],
-              "id" : "e3j07hx"
+              "id" : "esx7u3d"
             } ],
             "width" : 6,
             "offset" : 0,
@@ -3201,7 +3212,7 @@
           "tree" : false,
           "lazyLoad" : false,
           "autoAdjust" : false,
-          "id" : "edtqq38"
+          "id" : "exooxay"
         }, {
           "label" : "Value date",
           "labelPosition" : "top",
@@ -3328,7 +3339,7 @@
           "allowMultipleMasks" : false,
           "addons" : [ ],
           "datepickerMode" : "day",
-          "id" : "egdwr6rm"
+          "id" : "e2hcwj7"
         } ],
         "placeholder" : "",
         "prefix" : "",
@@ -3368,7 +3379,7 @@
         "addons" : [ ],
         "tree" : false,
         "lazyLoad" : false,
-        "id" : "etobydb"
+        "id" : "evbzafl"
       } ],
       "placeholder" : "",
       "prefix" : "",
@@ -3408,7 +3419,7 @@
       "addons" : [ ],
       "tree" : false,
       "lazyLoad" : false,
-      "id" : "ehh9k"
+      "id" : "e1abehn"
     }, {
       "title" : "Comment History",
       "theme" : "danger",
@@ -3528,7 +3539,7 @@
         "wysiwyg" : false,
         "editor" : "",
         "fixedSize" : true,
-        "id" : "ezvftmg"
+        "id" : "erme2vr"
       }, {
         "label" : "Comment History",
         "cellAlignment" : "left",
@@ -3549,7 +3560,7 @@
             "key" : "username",
             "type" : "textfield",
             "input" : true,
-            "id" : "e83niwp",
+            "id" : "e11icis",
             "placeholder" : "",
             "prefix" : "",
             "customClass" : "",
@@ -3628,7 +3639,7 @@
             "key" : "role",
             "type" : "textfield",
             "input" : true,
-            "id" : "e9c59lb",
+            "id" : "emdysj8",
             "placeholder" : "",
             "prefix" : "",
             "customClass" : "",
@@ -3707,7 +3718,7 @@
             "key" : "stepName",
             "type" : "textfield",
             "input" : true,
-            "id" : "efbtkxr",
+            "id" : "erbrlo8",
             "placeholder" : "",
             "prefix" : "",
             "customClass" : "",
@@ -3818,7 +3829,7 @@
               "disableWeekdays" : false,
               "maxDate" : null
             },
-            "id" : "e28o7lg",
+            "id" : "ey5aqt7",
             "placeholder" : "",
             "prefix" : "",
             "customClass" : "",
@@ -3902,7 +3913,7 @@
             "key" : "comment",
             "type" : "textfield",
             "input" : true,
-            "id" : "ebkr00m",
+            "id" : "egmx1bf",
             "placeholder" : "",
             "prefix" : "",
             "customClass" : "",
@@ -4037,7 +4048,7 @@
         "cloneRows" : false,
         "hover" : false,
         "condensed" : false,
-        "id" : "efg61xg"
+        "id" : "egnjk5"
       }, {
         "label" : "Table",
         "cellAlignment" : "left",
@@ -4114,7 +4125,7 @@
         "cloneRows" : false,
         "hover" : false,
         "condensed" : false,
-        "id" : "etvujb2"
+        "id" : "ejzdeic"
       } ],
       "placeholder" : "",
       "prefix" : "",
@@ -4154,7 +4165,7 @@
       "addons" : [ ],
       "tree" : false,
       "lazyLoad" : false,
-      "id" : "ex13fw"
+      "id" : "eu4mz6z4"
     }, {
       "label" : "Columns",
       "columns" : [ {
@@ -4239,7 +4250,7 @@
           "leftIcon" : "",
           "rightIcon" : "",
           "block" : false,
-          "id" : "ego0lu"
+          "id" : "ebg3er"
         } ],
         "width" : 4,
         "offset" : 0,
@@ -4327,7 +4338,7 @@
           "showWordCount" : false,
           "allowMultipleMasks" : false,
           "addons" : [ ],
-          "id" : "exeo95t",
+          "id" : "ey9n2x",
           "saveOnEnter" : false
         } ],
         "width" : 4,
@@ -4406,7 +4417,7 @@
       "addons" : [ ],
       "tree" : false,
       "lazyLoad" : false,
-      "id" : "e98jha"
+      "id" : "e1zf8ah"
     } ],
     "id" : "Form_5529954"
   },

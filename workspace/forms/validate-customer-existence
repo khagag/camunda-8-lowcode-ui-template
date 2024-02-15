@@ -1,6 +1,6 @@
 {
   "name" : "validate-customer-existence",
-  "modified" : 1707761222870,
+  "modified" : 1707945501079,
   "schema" : {
     "_id" : 6250093,
     "components" : [ {
@@ -79,7 +79,7 @@
       "showWordCount" : false,
       "allowMultipleMasks" : false,
       "addons" : [ ],
-      "id" : "eoluoxx"
+      "id" : "el9urmu"
     }, {
       "label" : "Program Type",
       "labelPosition" : "top",
@@ -195,7 +195,7 @@
         "include" : "score",
         "threshold" : 0.3
       },
-      "id" : "ecvxd3p",
+      "id" : "e4qhnt",
       "defaultValue" : ""
     }, {
       "label" : "Customer National ID",
@@ -281,14 +281,17 @@
       "dataGridLabel" : false,
       "addons" : [ ],
       "inputType" : "text",
-      "id" : "elpqzbo",
+      "id" : "enf3qch",
       "defaultValue" : ""
     }, {
       "label" : "Customer Birth Date",
-      "hideInputLabels" : false,
-      "inputsLabelPosition" : "top",
-      "description" : "",
+      "labelPosition" : "top",
+      "displayInTimezone" : "viewer",
       "useLocaleSettings" : false,
+      "allowInput" : true,
+      "format" : "yyyy-MM-dd",
+      "placeholder" : "",
+      "description" : "",
       "tooltip" : "",
       "customClass" : "",
       "tabindex" : "",
@@ -298,28 +301,36 @@
       "disabled" : false,
       "tableView" : false,
       "modalEdit" : false,
-      "fields" : {
-        "day" : {
-          "type" : "number",
-          "placeholder" : "",
-          "hide" : false,
-          "required" : false
-        },
-        "month" : {
-          "type" : "select",
-          "placeholder" : "",
-          "hide" : false,
-          "required" : false
-        },
-        "year" : {
-          "type" : "number",
-          "placeholder" : "",
-          "hide" : false,
-          "required" : false
-        }
+      "shortcutButtons" : [ ],
+      "enableDate" : true,
+      "datePicker" : {
+        "disable" : "",
+        "disableFunction" : "",
+        "disableWeekends" : false,
+        "disableWeekdays" : false,
+        "minDate" : null,
+        "maxDate" : null,
+        "showWeeks" : true,
+        "startingDay" : 0,
+        "initDate" : "",
+        "minMode" : "day",
+        "maxMode" : "year",
+        "yearRows" : 4,
+        "yearColumns" : 5
       },
-      "dayFirst" : false,
-      "defaultValue" : "00/00/0000",
+      "enableTime" : false,
+      "timePicker" : {
+        "showMeridian" : true,
+        "hourStep" : 1,
+        "minuteStep" : 1,
+        "readonlyInput" : false,
+        "mousewheel" : true,
+        "arrowkeys" : true
+      },
+      "multiple" : false,
+      "defaultValue" : "",
+      "defaultDate" : "",
+      "customOptions" : { },
       "persistent" : true,
       "protected" : false,
       "dbIndex" : false,
@@ -331,20 +342,20 @@
       "calculateServer" : false,
       "allowCalculateOverride" : false,
       "validateOn" : "change",
-      "maxDate" : "",
-      "minDate" : "",
-      "unique" : false,
-      "errorLabel" : "",
       "validate" : {
+        "required" : false,
         "customMessage" : "",
         "custom" : "",
         "customPrivate" : false,
         "json" : "",
-        "required" : false,
         "strictDateValidation" : false,
         "multiple" : false,
         "unique" : false
       },
+      "enableMinDateInput" : false,
+      "enableMaxDateInput" : false,
+      "unique" : false,
+      "errorLabel" : "",
       "errors" : "",
       "key" : "dateOfBirth",
       "tags" : [ ],
@@ -366,21 +377,39 @@
         "width" : "",
         "height" : ""
       },
-      "type" : "day",
+      "type" : "datetime",
+      "timezone" : "",
       "input" : true,
-      "placeholder" : "",
+      "widget" : {
+        "type" : "calendar",
+        "displayInTimezone" : "viewer",
+        "locale" : "en",
+        "useLocaleSettings" : false,
+        "allowInput" : true,
+        "mode" : "single",
+        "enableTime" : false,
+        "noCalendar" : false,
+        "format" : "yyyy-MM-dd",
+        "hourIncrement" : 1,
+        "minuteIncrement" : 1,
+        "time_24hr" : false,
+        "minDate" : null,
+        "disabledDates" : "",
+        "disableWeekends" : false,
+        "disableWeekdays" : false,
+        "disableFunction" : "",
+        "maxDate" : null
+      },
       "prefix" : "",
       "suffix" : "",
-      "multiple" : false,
       "refreshOn" : "",
       "dataGridLabel" : false,
-      "labelPosition" : "top",
-      "widget" : null,
       "showCharCount" : false,
       "showWordCount" : false,
       "allowMultipleMasks" : false,
       "addons" : [ ],
-      "id" : "e1h8a07"
+      "datepickerMode" : "day",
+      "id" : "eveg7m"
     }, {
       "label" : "Gender",
       "labelPosition" : "top",
@@ -494,7 +523,7 @@
         "include" : "score",
         "threshold" : 0.3
       },
-      "id" : "ebtpyz",
+      "id" : "e0mzvi",
       "defaultValue" : ""
     }, {
       "label" : "Check CIF",
@@ -583,7 +612,7 @@
       "showWordCount" : false,
       "allowMultipleMasks" : false,
       "addons" : [ ],
-      "id" : "eygm8u5"
+      "id" : "eywdr3j"
     } ]
   },
   "previewData" : { },

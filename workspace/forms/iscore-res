@@ -1,6 +1,6 @@
 {
   "name" : "iscore-res",
-  "modified" : 1707927253129,
+  "modified" : 1707943027073,
   "schema" : {
     "_id" : 7611984,
     "components" : [ {
@@ -123,7 +123,7 @@
             "displayMask" : "",
             "spellcheck" : true,
             "truncateMultipleSpaces" : false,
-            "id" : "eb3xmpb"
+            "id" : "elt7uma"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -217,7 +217,7 @@
             "dataGridLabel" : false,
             "addons" : [ ],
             "inputType" : "text",
-            "id" : "eupgnh",
+            "id" : "ez6q4h",
             "defaultValue" : null
           } ],
           "width" : 6,
@@ -287,7 +287,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "evcb1nc"
+        "id" : "ekuxsbp"
       }, {
         "label" : "Columns",
         "columns" : [ {
@@ -367,7 +367,7 @@
             "displayMask" : "",
             "spellcheck" : true,
             "truncateMultipleSpaces" : false,
-            "id" : "evz95y"
+            "id" : "eee7aps"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -452,7 +452,7 @@
             "displayMask" : "",
             "spellcheck" : true,
             "truncateMultipleSpaces" : false,
-            "id" : "ekyyfq7"
+            "id" : "evib4vl"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -525,7 +525,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "eg98uqz"
+        "id" : "e7locf"
       }, {
         "label" : "Columns",
         "columns" : [ {
@@ -614,7 +614,7 @@
             "dataGridLabel" : false,
             "addons" : [ ],
             "inputType" : "text",
-            "id" : "e6529jr",
+            "id" : "ezoo5lg",
             "defaultValue" : null
           } ],
           "width" : 6,
@@ -700,7 +700,7 @@
             "displayMask" : "",
             "spellcheck" : true,
             "truncateMultipleSpaces" : false,
-            "id" : "em1kns"
+            "id" : "ey6d1ri"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -773,7 +773,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "ed05b6p"
+        "id" : "eni44g4"
       }, {
         "label" : "Columns",
         "columns" : [ {
@@ -890,7 +890,7 @@
               "arrowkeys" : true
             },
             "customOptions" : { },
-            "id" : "eyw97uv"
+            "id" : "e6tfmol"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -1025,7 +1025,7 @@
             "allowMultipleMasks" : false,
             "addons" : [ ],
             "datepickerMode" : "day",
-            "id" : "er2awyr"
+            "id" : "e6alnmt"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -1098,7 +1098,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "ei1mb6l"
+        "id" : "ekkc0s3"
       } ],
       "placeholder" : "",
       "prefix" : "",
@@ -1138,7 +1138,7 @@
       "addons" : [ ],
       "tree" : false,
       "lazyLoad" : false,
-      "id" : "e4e772i"
+      "id" : "eo2fjvn"
     }, {
       "title" : "Loan Data",
       "theme" : "danger",
@@ -1300,7 +1300,7 @@
               "include" : "score",
               "threshold" : 0.3
             },
-            "id" : "epl7g5n",
+            "id" : "eox7ka",
             "defaultValue" : ""
           } ],
           "width" : 6,
@@ -1386,7 +1386,7 @@
             "displayMask" : "",
             "spellcheck" : true,
             "truncateMultipleSpaces" : false,
-            "id" : "eqhfqv"
+            "id" : "er66qn"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -1459,7 +1459,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "ek3q5d1"
+        "id" : "ew75wt"
       }, {
         "label" : "Columns",
         "columns" : [ {
@@ -1537,7 +1537,7 @@
             "properties" : { },
             "allowMultipleMasks" : false,
             "addons" : [ ],
-            "id" : "em10wabd"
+            "id" : "ejprufj"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -1618,7 +1618,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "ec7c0y9"
+        "id" : "esb90q"
       } ],
       "placeholder" : "",
       "prefix" : "",
@@ -1658,7 +1658,7 @@
       "addons" : [ ],
       "tree" : false,
       "lazyLoad" : false,
-      "id" : "e33itte"
+      "id" : "efifcuc"
     }, {
       "title" : "Address Data",
       "theme" : "danger",
@@ -1774,7 +1774,7 @@
             "displayMask" : "",
             "spellcheck" : true,
             "truncateMultipleSpaces" : false,
-            "id" : "el5jmr2"
+            "id" : "es1cqx8"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -1859,7 +1859,7 @@
             "displayMask" : "",
             "spellcheck" : true,
             "truncateMultipleSpaces" : false,
-            "id" : "e8u9so"
+            "id" : "e0xhll9"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -1932,7 +1932,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "ejgk61c"
+        "id" : "etscpl"
       }, {
         "label" : "Columns",
         "columns" : [ {
@@ -2014,7 +2014,7 @@
             "properties" : { },
             "allowMultipleMasks" : false,
             "addons" : [ ],
-            "id" : "e3poig",
+            "id" : "e8lmnzq",
             "inputType" : "text",
             "inputMask" : "",
             "displayMask" : "",
@@ -2102,7 +2102,7 @@
             "properties" : { },
             "allowMultipleMasks" : false,
             "addons" : [ ],
-            "id" : "e73xe6g"
+            "id" : "eduw1v5"
           } ],
           "width" : 6,
           "offset" : 0,
@@ -2175,7 +2175,7 @@
         "tree" : false,
         "lazyLoad" : false,
         "autoAdjust" : false,
-        "id" : "ecj4tqs9"
+        "id" : "eiohg3n"
       } ],
       "placeholder" : "",
       "prefix" : "",
@@ -2215,7 +2215,7 @@
       "addons" : [ ],
       "tree" : false,
       "lazyLoad" : false,
-      "id" : "e9kctqb"
+      "id" : "e6p5be1"
     }, {
       "title" : "Comment History",
       "theme" : "danger",
@@ -2335,7 +2335,7 @@
         "wysiwyg" : false,
         "editor" : "",
         "fixedSize" : true,
-        "id" : "ebn595g"
+        "id" : "eqz689gg"
       }, {
         "label" : "Comment History",
         "cellAlignment" : "left",
@@ -2356,7 +2356,7 @@
             "key" : "username",
             "type" : "textfield",
             "input" : true,
-            "id" : "eto55ws",
+            "id" : "e7ll8kd",
             "placeholder" : "",
             "prefix" : "",
             "customClass" : "",
@@ -2435,7 +2435,7 @@
             "key" : "role",
             "type" : "textfield",
             "input" : true,
-            "id" : "e8e43or",
+            "id" : "ea7u31f",
             "placeholder" : "",
             "prefix" : "",
             "customClass" : "",
@@ -2514,7 +2514,7 @@
             "key" : "stepName",
             "type" : "textfield",
             "input" : true,
-            "id" : "eyjcgc",
+            "id" : "e4tvtfc",
             "placeholder" : "",
             "prefix" : "",
             "customClass" : "",
@@ -2625,7 +2625,7 @@
               "disableWeekdays" : false,
               "maxDate" : null
             },
-            "id" : "e64f9ss",
+            "id" : "eepm6ww",
             "placeholder" : "",
             "prefix" : "",
             "customClass" : "",
@@ -2709,7 +2709,7 @@
             "key" : "comment",
             "type" : "textfield",
             "input" : true,
-            "id" : "eid5rho",
+            "id" : "e0nyfd8",
             "placeholder" : "",
             "prefix" : "",
             "customClass" : "",
@@ -2844,7 +2844,7 @@
         "cloneRows" : false,
         "hover" : false,
         "condensed" : false,
-        "id" : "ejw40zn"
+        "id" : "eo5sh3j"
       }, {
         "label" : "Table",
         "cellAlignment" : "left",
@@ -2921,7 +2921,7 @@
         "cloneRows" : false,
         "hover" : false,
         "condensed" : false,
-        "id" : "ei53lkl"
+        "id" : "ef7tj3i"
       } ],
       "placeholder" : "",
       "prefix" : "",
@@ -2961,7 +2961,7 @@
       "addons" : [ ],
       "tree" : false,
       "lazyLoad" : false,
-      "id" : "ecpcybo"
+      "id" : "e0eb2kb"
     }, {
       "label" : "Columns",
       "columns" : [ {
@@ -3046,7 +3046,7 @@
           "leftIcon" : "",
           "rightIcon" : "",
           "block" : false,
-          "id" : "eikrbw"
+          "id" : "eiylrap"
         } ],
         "width" : 4,
         "offset" : 0,
@@ -3134,7 +3134,7 @@
           "showWordCount" : false,
           "allowMultipleMasks" : false,
           "addons" : [ ],
-          "id" : "el9n1e",
+          "id" : "e6caj98",
           "saveOnEnter" : false
         } ],
         "width" : 4,
@@ -3213,7 +3213,7 @@
       "addons" : [ ],
       "tree" : false,
       "lazyLoad" : false,
-      "id" : "e5uiyti"
+      "id" : "egjzg78"
     } ]
   },
   "previewData" : { },
