@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:biodi="http://bpmn.io/schema/dmn/biodi/2.0" id="Definitions_166jlde" name="LoanDRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.19.0" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.4.0">
+  <decision id="loanDecision" name="Loan Decision">
+    <informationRequirement id="InformationRequirement_0o0z622">
+      <requiredInput href="#InputData_age" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_1erb7vn">
+      <requiredInput href="#InputData_loanAmount" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_0anbk26">
+      <requiredInput href="#InputData_DBR" />
+    </informationRequirement>
+    <informationRequirement id="InformationRequirement_0mtt4ye">
+      <requiredInput href="#InputData_product" />
+    </informationRequirement>
+    <decisionTable id="decisionTable">
+      <input id="input1" label="Product" biodi:width="192">
+        <inputExpression id="inputExpression1" typeRef="string">
+          <text>InputData_product</text>
+        </inputExpression>
+      </input>
+      <input id="input2" label="Age">
+        <inputExpression id="inputExpression2" typeRef="number">
+          <text>InputData_age</text>
+        </inputExpression>
+      </input>
+      <input id="input3" label="DBR">
+        <inputExpression id="inputExpression3" typeRef="number">
+          <text>InputData_DBR</text>
+        </inputExpression>
+      </input>
+      <input id="input4" label="Loan Amount">
+        <inputExpression id="inputExpression4" typeRef="number">
+          <text>InputData_loanAmount</text>
+        </inputExpression>
+      </input>
+      <input id="input5" label="Interest Rate">
+        <inputExpression id="inputExpression5" typeRef="number">
+          <text>InputData_InterestRate</text>
+        </inputExpression>
+      </input>
+      <output id="output2" label="Loan Approved" name="loanApproved" typeRef="boolean" />
+      <rule id="rule1">
+        <inputEntry id="inputEntry1">
+          <text>"701"</text>
+        </inputEntry>
+        <inputEntry id="inputEntry2">
+          <text>[21..65]</text>
+        </inputEntry>
+        <inputEntry id="inputEntry3">
+          <text>&gt;=0.15</text>
+        </inputEntry>
+        <inputEntry id="inputEntry4">
+          <text>[3000..500000]</text>
+        </inputEntry>
+        <inputEntry id="outputEntry1">
+          <text>0.1</text>
+        </inputEntry>
+        <outputEntry id="outputEntry2">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule2">
+        <inputEntry id="inputEntry5">
+          <text>"711"</text>
+        </inputEntry>
+        <inputEntry id="inputEntry6">
+          <text>[21..60]</text>
+        </inputEntry>
+        <inputEntry id="inputEntry7">
+          <text>&gt;=50</text>
+        </inputEntry>
+        <inputEntry id="inputEntry8">
+          <text>[3000..1000000]</text>
+        </inputEntry>
+        <inputEntry id="outputEntry3">
+          <text>0.5</text>
+        </inputEntry>
+        <outputEntry id="outputEntry4">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule3">
+        <inputEntry id="inputEntry9">
+          <text>"711T"</text>
+        </inputEntry>
+        <inputEntry id="inputEntry10">
+          <text>[21..60]</text>
+        </inputEntry>
+        <inputEntry id="inputEntry11">
+          <text>&gt;=0.1</text>
+        </inputEntry>
+        <inputEntry id="inputEntry12">
+          <text>[3000..1000000]</text>
+        </inputEntry>
+        <inputEntry id="outputEntry5">
+          <text>0.5</text>
+        </inputEntry>
+        <outputEntry id="outputEntry6">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule4">
+        <inputEntry id="inputEntry13">
+          <text>"726A"</text>
+        </inputEntry>
+        <inputEntry id="inputEntry14">
+          <text>[21..60]</text>
+        </inputEntry>
+        <inputEntry id="inputEntry15">
+          <text>&gt;=0.1</text>
+        </inputEntry>
+        <inputEntry id="inputEntry16">
+          <text>[5000..1500000]</text>
+        </inputEntry>
+        <inputEntry id="outputEntry7">
+          <text>0.5</text>
+        </inputEntry>
+        <outputEntry id="outputEntry8">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule5">
+        <inputEntry id="inputEntry17">
+          <text>"726B"</text>
+        </inputEntry>
+        <inputEntry id="inputEntry18">
+          <text>[21..60]</text>
+        </inputEntry>
+        <inputEntry id="inputEntry19">
+          <text>&gt;=0.1</text>
+        </inputEntry>
+        <inputEntry id="inputEntry20">
+          <text>[10000..750000]</text>
+        </inputEntry>
+        <inputEntry id="outputEntry9">
+          <text>0.5</text>
+        </inputEntry>
+        <outputEntry id="outputEntry10">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule6">
+        <inputEntry id="inputEntry21">
+          <text>"727A"</text>
+        </inputEntry>
+        <inputEntry id="inputEntry22">
+          <text>[21..60]</text>
+        </inputEntry>
+        <inputEntry id="inputEntry23">
+          <text>&gt;=0.1</text>
+        </inputEntry>
+        <inputEntry id="inputEntry24">
+          <text>[15000..1500000]</text>
+        </inputEntry>
+        <inputEntry id="outputEntry11">
+          <text>0.5</text>
+        </inputEntry>
+        <outputEntry id="outputEntry12">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule7">
+        <inputEntry id="inputEntry25">
+          <text>"727B"</text>
+        </inputEntry>
+        <inputEntry id="inputEntry26">
+          <text>[21..60]</text>
+        </inputEntry>
+        <inputEntry id="inputEntry27">
+          <text>&gt;=0.1</text>
+        </inputEntry>
+        <inputEntry id="inputEntry28">
+          <text>[15000..500000]</text>
+        </inputEntry>
+        <inputEntry id="outputEntry13">
+          <text>0.5</text>
+        </inputEntry>
+        <outputEntry id="outputEntry14">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule8">
+        <inputEntry id="inputEntry29">
+          <text>"728"</text>
+        </inputEntry>
+        <inputEntry id="inputEntry30">
+          <text>[21..60]</text>
+        </inputEntry>
+        <inputEntry id="inputEntry31">
+          <text>&gt;=0.1</text>
+        </inputEntry>
+        <inputEntry id="inputEntry32">
+          <text>[5000..1500000]</text>
+        </inputEntry>
+        <inputEntry id="outputEntry15">
+          <text>0.5</text>
+        </inputEntry>
+        <outputEntry id="outputEntry16">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule9">
+        <inputEntry id="inputEntry33">
+          <text>"729"</text>
+        </inputEntry>
+        <inputEntry id="inputEntry34">
+          <text>[21..65]</text>
+        </inputEntry>
+        <inputEntry id="inputEntry35">
+          <text>&gt;=0.1</text>
+        </inputEntry>
+        <inputEntry id="inputEntry36">
+          <text>[25000..1500000]</text>
+        </inputEntry>
+        <inputEntry id="outputEntry17">
+          <text>0.5</text>
+        </inputEntry>
+        <outputEntry id="outputEntry18">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule10">
+        <inputEntry id="inputEntry37">
+          <text>"730"</text>
+        </inputEntry>
+        <inputEntry id="inputEntry38">
+          <text>[21..60]</text>
+        </inputEntry>
+        <inputEntry id="inputEntry39">
+          <text>&gt;=0.1</text>
+        </inputEntry>
+        <inputEntry id="inputEntry40">
+          <text>[15000..300000]</text>
+        </inputEntry>
+        <inputEntry id="outputEntry19">
+          <text>0.5</text>
+        </inputEntry>
+        <outputEntry id="outputEntry20">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule11">
+        <inputEntry id="inputEntry41">
+          <text>"733"</text>
+        </inputEntry>
+        <inputEntry id="inputEntry42">
+          <text>[21..60]</text>
+        </inputEntry>
+        <inputEntry id="inputEntry43">
+          <text>&gt;=0.1</text>
+        </inputEntry>
+        <inputEntry id="inputEntry44">
+          <text>[5000..1500000]</text>
+        </inputEntry>
+        <inputEntry id="outputEntry21">
+          <text>0.5</text>
+        </inputEntry>
+        <outputEntry id="outputEntry22">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule12">
+        <inputEntry id="inputEntry45">
+          <text>"734"</text>
+        </inputEntry>
+        <inputEntry id="inputEntry46">
+          <text>[21..60]</text>
+        </inputEntry>
+        <inputEntry id="inputEntry47">
+          <text>&gt;=0.1</text>
+        </inputEntry>
+        <inputEntry id="inputEntry48">
+          <text>[5000..1000000]</text>
+        </inputEntry>
+        <inputEntry id="outputEntry23">
+          <text>0.5</text>
+        </inputEntry>
+        <outputEntry id="outputEntry24">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0f8kixa">
+        <inputEntry id="UnaryTests_0lsn83x">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0gourox">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_00g6xql">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1q9y48r">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0gad7gd">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_00bners">
+          <text>false</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <inputData id="InputData_age" name="age" />
+  <inputData id="InputData_loanAmount" name="loanAmount" />
+  <inputData id="InputData_DBR" name="DBR" />
+  <inputData id="InputData_product" name="product" />
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="loanDecision">
+        <dc:Bounds height="80" width="180" x="450" y="100" />
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="DMNShape_05c8uzy" dmnElementRef="InputData_age">
+        <dc:Bounds height="45" width="125" x="157" y="177" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_1wnipja" dmnElementRef="InformationRequirement_0o0z622">
+        <di:waypoint x="282" y="200" />
+        <di:waypoint x="430" y="153" />
+        <di:waypoint x="450" y="153" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_0ncji0l" dmnElementRef="InputData_loanAmount">
+        <dc:Bounds height="45" width="125" x="367" y="277" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_183lm0y" dmnElementRef="InformationRequirement_1erb7vn">
+        <di:waypoint x="430" y="277" />
+        <di:waypoint x="510" y="200" />
+        <di:waypoint x="510" y="180" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_15juo05" dmnElementRef="InputData_DBR">
+        <dc:Bounds height="45" width="125" x="587" y="277" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_0rj9p29" dmnElementRef="InformationRequirement_0anbk26">
+        <di:waypoint x="650" y="277" />
+        <di:waypoint x="570" y="200" />
+        <di:waypoint x="570" y="180" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="DMNShape_0h7rkaf" dmnElementRef="InputData_product">
+        <dc:Bounds height="45" width="125" x="157" y="77" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="DMNEdge_1v2f9o8" dmnElementRef="InformationRequirement_0mtt4ye">
+        <di:waypoint x="282" y="100" />
+        <di:waypoint x="430" y="127" />
+        <di:waypoint x="450" y="127" />
+      </dmndi:DMNEdge>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>
